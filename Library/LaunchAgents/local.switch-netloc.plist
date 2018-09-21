@@ -11,12 +11,12 @@
   <key>ProgramArguments</key>
   <array>
     <string>bash</string>
-    <string>/Users/USER/Library/Application Support/change-location.sh</string>
+    <string>~/Library/Application Support/change-location.sh</string>
   </array>
-  <!--key>StandardOutPath</key>
-    <string>/Users/sdavid/local.switch-netloc.log</string>
+  <!--<key>StandardOutPath</key>
+    <string>~/local.switch-netloc.log</string>
   <key>StandardErrorPath</key>
-  <string>/Users/sdavid/local.switch-netloc.err</string-->
+  <string>~/local.switch-netloc.err</string> -->
   <key>WatchPaths</key>
   <array>
     <string>/Library/Preferences/SystemConfiguration/NetworkInterfaces.plist</string>
@@ -24,6 +24,7 @@
   </array>
 
   <key>RunAtLoad</key>
-  <true/>
+  <false/>
 </dict>
 </plist>
+<!-- vim: set ts=2 sts=2 et sw=2 : -->
