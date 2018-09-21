@@ -10,4 +10,3 @@ else
 	networksetup -switchtolocation "Automatic"
 fi
 
-# vim: set ft=lisp : #
